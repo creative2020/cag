@@ -14,6 +14,9 @@ get_header(); ?>
 
 	
 <div id="content" class="large-12 left type-page  columns" role="main">
+	
+	<!-- 2020 new page tagline -->
+	<?php get_template_part( 'section', 'tagline' ); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 					<header class="entry-header text-center">

@@ -12,6 +12,10 @@ get_header(); ?>
 <div class="row">
 
 <div id="content" class="large-12 columns" role="main">
+	
+	<!-- 2020 new page tagline -->
+	<?php get_template_part( 'section', 'tagline' ); ?>
+	
 	<header class="entry-header ">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 	</header>

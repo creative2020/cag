@@ -1,0 +1,37 @@
+/*
+colors
+@brand-primary  #DC5034 = #1 = TT Color 1 - red
+@brand-success  #E98300 = #2 = TT Color 2 - orange
+@brand-info     #9FCF67 = #3 = TT Color 3 - green md
+@brand-warning  #C8DF8E = #4 = TT Color 4 - green lt
+@brand-danger   #FCDA53 = #5 = TT Color 5 - yellow 
+
+Grays
+#2a2a2a - dk dk gray
+#555    - dk gray
+#808080 - md gray
+#ABABAB - lt gray
+#D5D5D5 - lt lt gray
+
+gray
+@gray-darker  = lighten(#000, 13.5%)
+@gray-dark    = lighten(#000, 20%)
+@gray         = lighten(#000, 33.5%)
+@gray-light   = lighten(#000, 60%)
+@gray-lighter = lighten(#000, 93.5%)
+*/
+
+/* undo some bootstrap nav stuff */
+.page-header {
+  padding-bottom: 00;
+  margin: 0;
+  border-bottom: 0px solid #eee;
+}
+#tt-social h3 a{
+	font-size: 1.8em;
+	color:white;
+	margin-right:4px;
+}
+#tt-social h3 a:hover{
+	color:#A8D0ED;
+}

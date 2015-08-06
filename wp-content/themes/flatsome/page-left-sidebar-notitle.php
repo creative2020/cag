@@ -9,9 +9,14 @@ get_header(); ?>
 </div>
 
 <div  class="page-wrapper page-left-sidebar">
+	
+	<!-- 2020 new page tagline -->
+	<?php get_template_part( 'section', 'tagline' ); ?>
+	
 <div class="row">
 
 <div id="content" class="large-9 right columns" role="main">
+	
 	<div class="page-inner">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>

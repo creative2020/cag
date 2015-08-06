@@ -15,6 +15,10 @@ if(!isset($flatsome_opt['blog_layout'])){$flatsome_opt['blog_layout'] = '';}
 if(isset($flatsome_opt['blog_header'])){ echo do_shortcode($flatsome_opt['blog_header']);}
 ?>
 <div class="page-wrapper page-<?php if($flatsome_opt['blog_layout']){ echo $flatsome_opt['blog_layout'];} else {echo 'right-sidebar';} ?>">
+	
+		<!-- 2020 new page tagline -->
+		<?php get_template_part( 'section', 'tagline' ); ?>
+		
 	<div class="row">
 
 		<?php if($flatsome_opt['blog_layout'] == 'left-sidebar') {

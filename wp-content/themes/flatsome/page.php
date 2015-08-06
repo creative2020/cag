@@ -17,6 +17,11 @@ get_header(); ?>
 </div>
 
 <div  class="page-wrapper">
+	
+	<!-- 2020 new page tagline -->
+	<?php get_template_part( 'section', 'tagline' ); ?>
+	
+	
 <div class="row">
 
 	
