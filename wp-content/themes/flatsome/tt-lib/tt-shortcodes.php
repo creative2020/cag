@@ -374,7 +374,6 @@ function tt_social($atts) {
     extract(shortcode_atts(array(
         'size'   => '1.8em',
         'color'  => 'black',
-        'margin-right' => '4px',
         'twitter' => 'https://twitter.com/capitusgroup',
         'linkedin' => 'https://www.linkedin.com/company/1237308',
         'instagram' => 'https://instagram.com/capitusgroup',

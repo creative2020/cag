@@ -21,7 +21,6 @@ gray
 @gray-lighter = lighten(#000, 93.5%)
 */
 
-/* undo some bootstrap nav stuff */
 .page-header {
   padding-bottom: 00;
   margin: 0;
@@ -30,8 +29,18 @@ gray
 #tt-social h3 a{
 	font-size: 1.8em;
 	color:white;
-	margin-right:4px;
+	margin-right:8px;
 }
 #tt-social h3 a:hover{
 	color:#A8D0ED;
+}
+#tt-social h3 .fa{
+	margin-right:8px;
+}
+/* Ninja form */
+.ninja-forms-success-msg {
+	background-color:green;
+	color:white;
+	padding:1.0em;
+	text-align:center;
 }
